@@ -1,5 +1,5 @@
-body{
-    background-color: #B57F50;
+  body {
+    background-color: #2e311e;
     font-family:sans-serif
 }
 
@@ -8,27 +8,29 @@ body{
     margin: 0.5em;
     padding: 1em;
     border-radius: 1em;
-    border: 1px solid #8ED081;
+    border: 1px solid #696969;
     flex: 1;
 }
 
 
-@media (min-width : 960 px) {
-    cats{
+
+
+@media (min-width : 960px) {
+    .cats {
         display: flex;
     }
 }
-
-fieldset{
+fieldset {
      margin: 1em;
      border: 0;
 }
- button{
+
+ button {
     padding: 1em;
     border: 3px solid;
     border-radius: 0.5em;
  }
 
- input{
+ input {
     padding: 1em;
  }
